@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "JukeboxPlayAlbumByArtist",
+      "slots": [
+        {
+          "name": "artist_name",
+          "type": "AMAZON.MusicGroup"
+        },
+        {
+          "name": "album_name",
+          "type": "AMAZON.MusicAlbum"
+        }
+      ]
+    },
+    {
+      "intent": "JukeboxListAlbumsByArtist",
+      "slots": [
+        {
+          "name": "artist_name",
+          "type": "AMAZON.MusicGroup"
+        }
+      ]
+    },
+    {
+      "intent": "JukeboxListSongsOnAlbum",
+      "slots": [
+        {
+          "name": "artist_name",
+          "type": "AMAZON.MusicGroup"
+        },
+        {
+          "name": "album_name",
+          "type": "AMAZON.MusicAlbum"
+        }
+      ]
+    }
+  ]
+}

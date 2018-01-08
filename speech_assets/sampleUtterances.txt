@@ -1,0 +1,11 @@
+JukeboxListAlbumsByArtist List albums by {artist_name}
+JukeboxListAlbumsByArtist List albums I can play to by {artist_name}
+JukeboxListAlbumsByArtist List albums I can listen to by {artist_name}
+JukeboxListAlbumsByArtist Tell me albums by {artist_name}
+JukeboxListAlbumsByArtist What are albums by {artist_name}
+JukeboxListAlbumsByArtist What albums are there by {artist_name}
+JukeboxListAlbumsByArtist What albums do I have by {artist_name}
+JukeboxListAlbumsByArtist What albums can I play by {artist_name}
+JukeboxListAlbumsByArtist What albums can I listen to by {artist_name}
+
+JukeboxPlayAlbumByArtist Play album {album_name} by the artist {artist_name}
