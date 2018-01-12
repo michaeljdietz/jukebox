@@ -69,7 +69,7 @@ class Database:
         self.get_cursor().execute('''
             CREATE TABLE album (
                 ROWID INTEGER NOT NULL,
-                name TEXT,
+                name TEXT,@
                 search_name TEXT,
                 artist_id INTEGER,
                 play_count INTEGER DEFAULT 0,
